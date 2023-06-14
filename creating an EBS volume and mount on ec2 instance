@@ -1,0 +1,29 @@
+:Create Instance 
+
+: Go  to the create vollume
+
+: Then select action attach the vollume
+
+: Go to the instance and check the storage 
+
+: Connect to the ec2 user on ssh in cli 
+
+: lsblk check the partition 
+
+: fdisk /dev/xvdf
+
+: create partition
+
+:enter defualt first sector and last sector and enter the partition
+
+:lsblk ( check parttion is create )
+
+: mkfs /dev/xvdf1  (make the  filesystem)
+
+: create directory for the  mount
+
+:mkdir /mnt/akshay
+
+: ls /mnt/
+
+: mount /dev/xvdf1 /mnt/akshay
